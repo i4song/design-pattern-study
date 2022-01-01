@@ -1,0 +1,16 @@
+{
+  "name": "design-pattern-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/i4song/design-pattern-study.git",
+  "author": "yongwookLee <yongw00k@g.skku.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "2.0.15",
+    "ts-node": "10.4.0",
+    "typescript": "4.5.4"
+  },
+  "scripts": {
+    "start": "nodemon --exec 'ts-node' --cwd $INIT_CWD"
+  }
+}
